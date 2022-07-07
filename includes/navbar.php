@@ -38,7 +38,7 @@
           <div class="wrapper-box">
             <div class="logo-column">
               <div class="logo-box">
-                <div class="logo"><a href="index.php"><img src="assets/images/badri-trans-logo.png" id="logo-image" alt="BARDI FOUNDATION" title="BARDI FOUNDATION"></a></div>
+                <div class="logo"><a href="<?= SITE_URL; ?>"><img src="assets/images/badri-trans-logo.png" id="logo-image" alt="BARDI FOUNDATION" title="BARDI FOUNDATION"></a></div>
               </div>
             </div>
             <div class="right-column">
@@ -50,11 +50,11 @@
 
                     <div class="collapse navbar-collapse">
                       <ul class="navigation">
-                        <li class="current"><a href="index.php">Home</a></li>
+                        <li class="current"><a href="<?= SITE_URL; ?>">Home</a></li>
                         <li class="dropdown"><a href="#">About</a>
                           <ul>
-                            <li><a href="About/index.html">About BADRI FOUNDATION</a></li>
-                            <li><a href="About/Vision_Mission.html">Vision & Mission</a></li>
+                            <li><a href="<?= base_url('about');?>">About BADRI FOUNDATION</a></li>
+                            <li><a href="#">Vision & Mission</a></li>
                           </ul>
                         </li>
                         <li class="dropdown"><a href="#">Projects</a>
@@ -72,7 +72,7 @@
                 </div>
 
                 <div class="link-btn">
-                  <a href="Donate/index.html" class="theme-btn btn-style-one"><span>Donate</span></a>
+                  <a href="#" class="theme-btn btn-style-one"><span>Donate</span></a>
                 </div>
               </div>
             </div>
@@ -87,7 +87,7 @@
           <div class="wrapper-box">
             <div class="logo-column">
               <div class="logo-box">
-                <div class="logo"><a href="index.php"><img src="assets/images/badri-trans-logo.png" id="logo-image3" alt="BARDI FOUNDATION" title="BARDI FOUNDATION"></a></div>
+                <div class="logo"><a href="<?= SITE_URL; ?>"><img src="assets/images/badri-trans-logo.png" id="logo-image3" alt="BARDI FOUNDATION" title="BARDI FOUNDATION"></a></div>
               </div>
             </div>
             <div class="menu-column">
@@ -114,7 +114,7 @@
       <!-- Mobile Menu  -->
       <div class="mobile-menu style-one">
         <div class="menu-box">
-          <div class="logo"><a href="index.php"><img src="assets/images/badri-trans-logo.png" id="logo-image2" alt="BARDI FOUNDATION" title="BARDI FOUNDATION"></a></div>
+          <div class="logo"><a href="<?= SITE_URL; ?>"><img src="assets/images/badri-trans-logo.png" id="logo-image2" alt="BARDI FOUNDATION" title="BARDI FOUNDATION"></a></div>
           <!-- Main Menu -->
           <nav class="main-menu navbar-expand-xl navbar-dark">
             <div class="navbar-header">

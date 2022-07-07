@@ -1,3 +1,4 @@
+<?php include_once('config/app.php');?>
 <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
 <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
 
